@@ -11,5 +11,10 @@ elMenuBtn.addEventListener('click', function () {
 })
 
 elMenuBtn.addEventListener('click', function () {
-  elMenuBox.classList.add('open-menu');
+  elMenuRemov.classList.add('menu-remov');
 })
+
+elMenuBtn.addEventListener('click', function () {
+  elMenuRemov.classList.remove('menu-remov');
+})
+
