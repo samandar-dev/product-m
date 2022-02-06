@@ -160,12 +160,14 @@ body {
   display: none;
 }
 
-.menu-remove {
+.removee-btn {
   position: absolute;
-  font-size: 30px;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
   line-height: 60px;
 
-  color: var(--color-black);
+  color: var(--color-white);
   background: transparent;
 
   border: none;
