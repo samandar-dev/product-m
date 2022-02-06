@@ -6,15 +6,25 @@ let elMenuBtn = document.getElementById('menuBtn');
 let elMenuBox = document.getElementById('menuBox');
 let elMenuRemov = document.getElementById('menuRemov')
 
-elMenuBtn.addEventListener('click', function () {
-  elMenuBox.classList.add('open-menu');
-})
+// elMenuBtn.addEventListener('click', function () {
+//   elMenuBox.classList.add('open-menu');
+// })
 
-elMenuBtn.addEventListener('click', function () {
-  elMenuRemov.classList.add('menu-remov');
-})
+// elMenuRemov.addEventListener('click', function () {
+//   elMenuBox.classList.add('menu-remov');
+// })
 
+let count = 0;
 elMenuBtn.addEventListener('click', function () {
-  elMenuRemov.classList.remove('menu-remov');
-})
+  elMenuBox.classList.toggle('open-menu');
+  if (count == 0) {
+    elMenuBtn.classList = 'open-menu';
+    count++;
+  }
+  else {
+    elMenuBox.classList.toggle('menu-remov');
+    count = 0;
+  }
+});
+
 
