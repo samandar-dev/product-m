@@ -1008,14 +1008,6 @@ body {
   .table__item {
     width: 500px;
     height: auto;
-
-    text-align: center;
-
-    padding: 24px 75px 0 70px;
-
-    background: #fff;
-    box-shadow: var(--box-shadow-1);
-    border-radius: var(--bd-radius-3);
   }
 
   .table-item__number {
