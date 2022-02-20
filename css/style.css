@@ -1004,6 +1004,28 @@ body {
   }
 }
 
+@media screen and (max-width: 680px) {
+  .table__item {
+    width: 500px;
+    height: auto;
+
+    text-align: center;
+
+    padding: 24px 75px 0 70px;
+
+    background: #fff;
+    box-shadow: var(--box-shadow-1);
+    border-radius: var(--bd-radius-3);
+  }
+
+  .table-item__number {
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
 .clients {
   margin-bottom: 150px;
 }
@@ -1205,7 +1227,7 @@ body {
   }
 
   .companies__img {
-    width: 351px;
+    width: 100%;
     margin: 0 auto;
     margin-left: -30px;
   }
@@ -1365,5 +1387,22 @@ body {
     margin: 0 auto;
     margin-bottom: 10px;
     text-align: center;
+  }
+
+  .form {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .form__input {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #bcd0e5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 128px 10px 15px;
+    margin-bottom: 20px;
   }
 }
